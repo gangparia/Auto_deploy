@@ -8,7 +8,6 @@ hooks:
     - location: deploy/before_install
       timeout: 300
       runas: ubuntu
-  AfterInstall:
-    - location: deploy/restart_server
+  AfterInstall
       timeout: 300
       runas: ubuntu
