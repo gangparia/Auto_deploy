@@ -3,11 +3,4 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-hooks:
-  BeforeInstall:
-    - location: deploy/before_install
-      timeout: 300
-      runas: ubuntu
-  AfterInstall
-      timeout: 300
-      runas: ubuntu
+
